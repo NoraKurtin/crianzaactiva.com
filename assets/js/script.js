@@ -120,16 +120,3 @@
 
   
 })(jQuery);
-
-// Mailchimp script
-(function(c,h,i,m,p){
-  m=c.createElement(h),p=c.getElementsByTagName(h)[0],
-  m.async=1,m.src=i,p.parentNode.insertBefore(m,p)
-})(document,"script","https://chimpstatic.com/mcjs-connected/js/users/24188b2ce52883dd499efc65e/1d5662b643e1a16ea36968936.js");
-
-function openMailchimpPopup() {
-  // Lógica para abrir el formulario de Mailchimp o manejar la suscripción
-  // Si Mailchimp ofrece un pop-up específico, puede ir aquí.
-  // Este código depende de cómo Mailchimp maneja los pop-ups.
-  alert("Mailchimp form would be triggered here.");
-}
